@@ -1,0 +1,398 @@
+#navbar {
+  background-color: #0f2d1b;
+  border: 0;
+}
+
+@media (min-width: 992px) {
+  .contact_us {
+    float: right;
+    display: inline-block;
+    padding-top: 20px;
+  }
+
+  .contact_us div p,.contact_us div a {
+    float: right;
+    display: inline-block;
+    margin: 0px;
+  }
+
+  .contact_us div a {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  span.glyphicon-chevron-down {
+    display: none !important;
+  }
+
+  span.glyphicon-chevron-up {
+    display: none !important;
+  }
+
+  .header_img {
+    width: 500px;
+  }
+
+  #navbar_list .nav_tab {
+    width: calc(97.5%/6);
+    display: inline-block;
+  }
+
+  .nav_tab + .nav_tab:before {
+    content : "";
+    position: absolute;
+    left    : 0;
+    z-index: 100;
+    bottom  : 0;
+    width  : 2px;
+    height   : 25%;
+    background: white;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    background-color: #0f2d1b;
+    padding: 6px;
+    margin: 3px 3px 0px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  #navbar_list .nav_tab {
+    margin: 0px;
+    text-align: center;
+  }
+
+  #navbar_list .nav_tab a {
+    color: white;
+    border: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: 0px;
+  }
+
+  #navbar_list .nav_tab a:hover {
+    background-color: #13730d;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 9px 15px;
+    color: white;
+  }
+
+  #myCarousel, #myCarousel2, #overview, #electrical_maintenance {
+    width: calc(100% *5/6);
+  }
+
+  .certification_tab:hover {
+    padding: 19px 20px;
+    font-size: 16px;
+    cursor: default;
+  }
+
+  .project_tab:hover {
+    font-size: 15px;
+    padding: 15px 15px 14px;
+    cursor: default;
+  }
+
+
+  #contact .map_details {
+    float: right;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .header_img {
+    width: 400px;
+  }
+
+  .contact_us {
+    float: right;
+    display: inline-block;
+    padding-top: 20px;
+  }
+
+  .contact_us div p,.contact_us div a {
+    float: right;
+    display: inline-block;
+    margin: 0px;
+  }
+
+  .contact_us div a {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  #navbar_container, #nav_menu {
+    padding: 0px;
+  }
+
+  span.glyphicon-chevron-down {
+    display: none !important;
+  }
+
+  span.glyphicon-chevron-up {
+    display: none !important;
+  }
+
+  #navbar_list .nav_tab {
+    width: calc(95%/6);
+    display: inline-block;
+  }
+
+  .nav_tab + .nav_tab:before {
+    content : "";
+    position: absolute;
+    left    : 0;
+    z-index: 100;
+    bottom  : 0;
+    width  : 2px;
+    height   : 25%;
+    background: white;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    background-color: #0f2d1b;
+    padding: 6px;
+    margin: 3px 3px 0px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  #navbar_list .nav_tab {
+    margin: 0px;
+    text-align: center;
+  }
+
+  #navbar_list .nav_tab a {
+    font-size: 12px;
+    color: white;
+    border: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: 0px;
+  }
+
+  #navbar_list .nav_tab a:hover {
+    background-color: #13730d;
+    text-decoration: none;
+    color: white;
+  }
+
+  #myCarousel, #myCarousel2, #overview, #electrical_maintenance {
+    width: 100%;
+  }
+
+
+  #contact .map_details {
+    display: inline-block;
+    float: right;
+  }
+  #contact .map_details iframe {
+    height: 300px;
+  }
+
+  .certification_tab:hover {
+    padding: 19px 20px;
+    font-size: 16px;
+    cursor: default;
+  }
+
+  .project_tab:hover {
+    font-size: 15px;
+    padding: 15px 15px 14px;
+    cursor: default;
+  }
+
+}
+
+@media (max-width: 767px) {
+  #menu_toggle {
+    margin-top: 15px;
+  }
+
+  .header_img {
+    width: 60%;
+  }
+
+  .contact_us {
+    display: none;
+  }
+
+  #nav_menu {
+    padding: 15px;
+  }
+
+  #overview .overview_text, #electrical_maintenance .em_text {
+    font-size: 14px;
+  }
+
+  .nav_tab .dropbtn span {
+    display: inline !important;
+  }
+  .dropdown-content {
+    text-align: center;
+    margin: 5px auto 5px;
+    padding: 5px;
+    width: 90%;
+    background-color: #13730d;
+    display: none;
+    border-radius: 10px;
+  }
+
+  .dropdown-content a {
+    display: block;
+  }
+
+  #navbar_list .nav_tab {
+    margin: 0px;
+    text-align: center;
+    border-radius: 6px;
+  }
+  #navbar_list .nav_tab a {
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 0;
+  }
+
+  #navbar_list li a:hover {
+    background-color: #0f2d1b;
+    text-decoration: none;
+  }
+
+  #myCarousel, #myCarousel2, #overview, #electrical_maintenance {
+    width: calc(100% *5/6);
+  }
+
+  .map_details {
+    width: 60$;
+  }
+
+  .contact_details {
+      border: 1px solid black;
+      border-radius: 6px;
+      margin: 15px 0px;;
+  }
+}
+
+
+#myCarousel, #myCarousel2 {
+  margin: auto;
+  text-align: center;
+}
+#navbar_list li.active > :first-child {
+  color: black;
+  border: 0px;
+  background-color: white;
+}
+
+.body-class {
+  background-color: #c2f2e2;
+  min-height: 75vh;
+}
+
+.projects li {
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #28C7AF;
+  margin: 10px;
+}
+
+.certifications, .projects {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.certification_tab {
+  margin: 0;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: underline;
+}
+
+.certification_tab:nth-child(odd){
+  background-color: #28C7AF;
+}
+
+#overview, #electrical_maintenance {
+  margin: -60px auto 20px;
+  position: relative;
+  z-index: 100;
+  color: white;
+  font-size: 16px;
+}
+
+#overview_header, #em_header {
+  background-color: #0f2d1b;
+  padding: 10px 30px 10px 15px;
+  display: inline-block;
+  border-top-right-radius: 20px;
+  margin: 0px;
+}
+
+.overview_text, .em_text {
+  background-color: #0f2d1b;
+  padding: 15px 30px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.contact_details {
+  text-align: center;
+}
+
+.contact_details p {
+  margin: 0px;
+}
+
+.contact_details div {
+  margin: 15px;
+}
+
+.map_details iframe{
+  width: 100%;
+  height: 400px;
+}
+.footer {
+  height: 60px;
+  background-color: #0f2d1b;
+}
